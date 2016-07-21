@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cat Clicker 01</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .cats-container {
+      float: left;
+      margin: 10px 10px 0 0;
+      position: relative;
+    }
+
+    .cats-container img {
+      height: 400px;
+    }
+
+    .show-counter {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 100px;
+      height: 80px;
+      background: #9cf;
+      color: #fff;
+      font-size: 50px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="cats-container">
+    <img src="../cat.jpg" alt="Imagem de Gato" data-img-id="1" draggable="false">
+    <span class="show-counter" data-counter-id="1">0</span>
+    <p></p>
+  </div>
+
+  <div class="cats-container">
+    <img src="../cat02.jpg" alt="Imagem de Gato" data-img-id="2" draggable="false">
+    <span class="show-counter" data-counter-id="2">0</span>
+    <p></p>
+  </div>
+
+
+  <script src="app.js"></script>
+</body>
+</html>
